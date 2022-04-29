@@ -1,4 +1,12 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "library-a": "libs/library-a",
+    "library-b": "libs/library-b",
+    "my-angular-app": "apps/my-angular-app",
+    "my-angular-app-e2e": "apps/my-angular-app-e2e",
+    "my-api": "apps/my-api",
+    "my-api-test": "apps/my-api-test",
+    "shared": "libs/shared"
+  }
 }

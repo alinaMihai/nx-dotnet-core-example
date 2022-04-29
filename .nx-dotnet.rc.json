@@ -1,0 +1,21 @@
+{
+  "nugetPackages": {},
+  "moduleBoundaries": [
+    {
+      "onlyDependOnLibsWithTags": ["type:app", "type:a"],
+      "sourceTag": "type:app"
+    },
+    {
+      "onlyDependOnLibsWithTags": ["type:a","type:b","type:shared"],
+      "sourceTag": "type:a"
+    },
+    {
+      "onlyDependOnLibsWithTags": ["type:b", "type:shared"],
+      "sourceTag": "type:b"
+    },
+    {
+      "onlyDependOnLibsWithTags": ["type:library", "type:shared"],
+      "sourceTag": "type:shared"
+    }
+  ]
+}
