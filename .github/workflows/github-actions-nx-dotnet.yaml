@@ -36,22 +36,49 @@ jobs:
         working-directory: ./
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Check out repository code
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Fetch main
+        run: git fetch --tags --prune origin main
 
       - name: Setup .NET Core SDK
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: 5.0.x
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v1
+      - name: Setup node
+        uses: actions/setup-node@v2
+        id: node
         with:
           node-version: 14.x
-      - name: Install Nx dependencies
-        run: yarn install
+          cache: yarn
+          registry-url: 'https://npm.pkg.github.com'
+        env:
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Restore node_modules
+        uses: actions/cache@v2
+        id: node_modules
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
+
+      - name: Install dependencies
+        if: steps.node.outputs.cache-hit != 'true' || steps.node_modules.outputs.cache-hit != 'true'
+        run: yarn install --immutable
 
       - name: Build
         run: yarn build
+
+      - name: git config
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"  
 
       - name: Release
         shell: 'bash'
