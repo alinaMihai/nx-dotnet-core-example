@@ -36,7 +36,15 @@ jobs:
         working-directory: ./
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Check out repository code
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
+          token: ${{ secrets.ADMIN_GITHUB_TOKEN }}
+
+      - name: Fetch main
+        run: git fetch --tags --prune origin main
 
       - name: Setup .NET Core SDK
         uses: actions/setup-dotnet@v1
