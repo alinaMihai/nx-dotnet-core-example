@@ -1,3 +1,23 @@
+# v0.1.0 (Fri Jul 08 2022)
+
+#### 🚀 Enhancement
+
+- feat: add package json for project ([@alinaMihai](https://github.com/alinaMihai))
+- feat: add release plugin ([@alinaMihai](https://github.com/alinaMihai))
+- feat: d [#7](https://github.com/alinaMihai/nx-dotnet-core-example/pull/7) ([@alinaMihai](https://github.com/alinaMihai))
+- Feature/c [#6](https://github.com/alinaMihai/nx-dotnet-core-example/pull/6) ([@alinaMihai](https://github.com/alinaMihai))
+- feat: trigger git release ([@alinaMihai](https://github.com/alinaMihai))
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of https://github.com/alinaMihai/nx-dotnet-core-example ([@alinaMihai](https://github.com/alinaMihai))
+
+#### Authors: 1
+
+- Alina Mihai ([@alinaMihai](https://github.com/alinaMihai))
+
+---
+
 # v0.2.0 (Fri Jul 08 2022)
 
 #### 🚀 Enhancement
