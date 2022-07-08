@@ -13,6 +13,17 @@
     "release": "auto shipit"
   },
   "private": true,
+  "repository": "github:alinaMihai/nx-dotnet-core-example",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "Alina Mihai",
+  "contributors": [
+    {
+      "name": "Alina Mihai",
+      "email": "alina.mihai@consultant.lego.com"
+    }
+  ],
   "dependencies": {
     "@angular/animations": "~13.3.0",
     "@angular/common": "~13.3.0",
