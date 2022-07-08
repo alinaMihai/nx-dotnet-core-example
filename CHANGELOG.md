@@ -3,6 +3,24 @@
 #### 🚀 Enhancement
 
 - `undefined`
+  - feat: trigger git release ([@alinaMihai](https://github.com/alinaMihai))
+
+#### ⚠️ Pushed to `main`
+
+- `undefined`
+  - Merge branch 'main' of https://github.com/alinaMihai/nx-dotnet-core-example ([@alinaMihai](https://github.com/alinaMihai))
+
+#### Authors: 1
+
+- Alina Mihai ([@alinaMihai](https://github.com/alinaMihai))
+
+---
+
+# v0.1.0 (Fri Jul 08 2022)
+
+#### 🚀 Enhancement
+
+- `undefined`
   - feat: trigger release process ([@alinaMihai](https://github.com/alinaMihai))
   - Feature/b [#2](https://github.com/alinaMihai/nx-dotnet-core-example/pull/2) ([@alinaMihai](https://github.com/alinaMihai))
   - Feature/a [#1](https://github.com/alinaMihai/nx-dotnet-core-example/pull/1) ([@alinaMihai](https://github.com/alinaMihai))
