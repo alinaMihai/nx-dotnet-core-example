@@ -4,7 +4,7 @@
     "libs/*",
     "tools/*"
   ],
-  "version": "1.1.1",
+  "version": "0.0.0",
   "command": {
     "version": {
       "conventionalCommits": true,
