@@ -1,5 +1,5 @@
 module.exports = {
   baseBranch: 'main',
-  plugins: ['npm', 'conventional-commits', 'released'],
+  plugins: ['npm', 'conventional-commits'],
   prereleaseBranches: ['next'],
 };
