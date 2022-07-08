@@ -1,3 +1,16 @@
+# v0.2.0 (Fri Jul 08 2022)
+
+#### 🚀 Enhancement
+
+- `undefined`
+  - feat: d [#7](https://github.com/alinaMihai/nx-dotnet-core-example/pull/7) ([@alinaMihai](https://github.com/alinaMihai))
+
+#### Authors: 1
+
+- Alina Mihai ([@alinaMihai](https://github.com/alinaMihai))
+
+---
+
 # v0.1.0 (Fri Jul 08 2022)
 
 #### 🚀 Enhancement
