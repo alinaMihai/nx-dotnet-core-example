@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NumberService } from "../services/NumberService";
-
+export const d = '1';
 @Component({
   selector: 'my-workspace-root',
   templateUrl: './app.component.html',
