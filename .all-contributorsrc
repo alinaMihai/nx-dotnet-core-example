@@ -1,0 +1,28 @@
+{
+  "projectName": "nx-dotnet-core-example",
+  "projectOwner": "alinaMihai",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "alinaMihai",
+      "name": "Alina Mihai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8319825?v=4",
+      "profile": "https://www.linkedin.com/in/mihai-alina/",
+      "contributions": [
+        "code",
+        "infra",
+        "doc",
+        "example",
+        "test"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
