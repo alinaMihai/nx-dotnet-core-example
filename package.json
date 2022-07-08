@@ -8,7 +8,9 @@
     "build": "nx build",
     "test": "nx test",
     "prepare": "nx g @nx-dotnet/core:restore",
-    "postinstall": "ngcc --properties es2015 browser module main"
+    "postinstall": "ngcc --properties es2015 browser module main",
+    "release:dry-run": "auto shipit --dry-run",
+    "release": "auto shipit"
   },
   "private": true,
   "dependencies": {
@@ -20,8 +22,14 @@
     "@angular/platform-browser": "~13.3.0",
     "@angular/platform-browser-dynamic": "~13.3.0",
     "@angular/router": "~13.3.0",
+    "@auto-it/all-contributors": "^10.37.1",
+    "@auto-it/conventional-commits": "^10.37.1",
     "@nrwl/angular": "^14.0.5",
-    "@nx-dotnet/core": "^1.9.12",
+    "@nrwl/devkit": "^14.4.2",
+    "@nrwl/tao": "^14.4.2",
+    "@nx-dotnet/core": "1.12.0",
+    "auto": "^10.37.1",
+    "lerna": "^5.1.8",
     "rxjs": "~7.4.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4"
@@ -50,7 +58,7 @@
     "eslint-plugin-cypress": "^2.10.3",
     "jest": "27.5.1",
     "jest-preset-angular": "11.1.1",
-    "nx": "14.0.5",
+    "nx": "^14.4.2",
     "prettier": "^2.5.1",
     "ts-jest": "27.1.4",
     "ts-node": "9.1.1",
