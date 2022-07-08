@@ -1,3 +1,21 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [0.1.0](https://github.com/alinaMihai/nx-dotnet-core-example/compare/v0.0.0...v0.1.0) (2022-07-08)
+
+
+### Features
+
+* add package json for project ([c83e359](https://github.com/alinaMihai/nx-dotnet-core-example/commit/c83e359084ee9051d8720961ec1acf2626667c50))
+* add release plugin ([e7ad4c9](https://github.com/alinaMihai/nx-dotnet-core-example/commit/e7ad4c90b95e96220fb8682492bba2eaa9700fc5))
+* adding new functionality ([c0be2e1](https://github.com/alinaMihai/nx-dotnet-core-example/commit/c0be2e1efe3a6a704a702502a8ad224a88406cc0))
+* d ([9e71894](https://github.com/alinaMihai/nx-dotnet-core-example/commit/9e71894829c94e4f4455841182dad615a0dde54f))
+* trigger git release ([7511bde](https://github.com/alinaMihai/nx-dotnet-core-example/commit/7511bde7791eb3f6b912b4a42ed12e06040fec34))
+
+
+
 # v0.1.0 (Fri Jul 08 2022)
 
 #### 🚀 Enhancement

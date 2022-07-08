@@ -1,10 +1,9 @@
 {
-    "name": "my-angular-app",
-    "version": "0.0.0",
-    "private": true,
-    "repository": "github:alinaMihai/nx-dotnet-core-example",
-    "publishConfig": {
-      "registry": "https://npm.pkg.github.com/"
-    }
+  "name": "my-angular-app",
+  "version": "0.1.0",
+  "private": true,
+  "repository": "github:alinaMihai/nx-dotnet-core-example",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
-  
+}
