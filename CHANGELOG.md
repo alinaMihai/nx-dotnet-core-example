@@ -1,3 +1,16 @@
+# v0.1.1 (Mon Jul 11 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of https://github.com/alinaMihai/nx-dotnet-core-example ([@alinaMihai](https://github.com/alinaMihai))
+- chore: remove token ([@alinaMihai](https://github.com/alinaMihai))
+
+#### Authors: 1
+
+- Alina Mihai ([@alinaMihai](https://github.com/alinaMihai))
+
+---
+
 # Change Log
 
 All notable changes to this project will be documented in this file.
